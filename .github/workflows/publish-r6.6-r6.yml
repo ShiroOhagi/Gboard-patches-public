@@ -1,0 +1,44 @@
+name: Publish Gboard Shiro R6.6-r6
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/publish-r6.6-r6.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify accepted MPP
+        shell: bash
+        run: |
+          set -euo pipefail
+          FILE="patches-3.10.0-shiro-r6.6-r6.mpp"
+          test -f "$FILE"
+          test "$(stat -c%s "$FILE")" = "8012331"
+          echo "7192d88f4c5b2dc836afbcf022829e2eadd9b91206d2922b2db7af5a07f33c5e  $FILE" | sha256sum -c -
+
+      - name: Create release and upload accepted MPP
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="gboard-shiro-r6.6-r6"
+          FILE="patches-3.10.0-shiro-r6.6-r6.mpp"
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" \
+              --target "${GITHUB_SHA}" \
+              --title "Gboard Shiro Custom R6.6-r6" \
+              --notes "Accepted Shiro Predict bundle. SHA-256: 7192D88F4C5B2DC836AFBCF022829E2EADD9B91206D2922B2DB7AF5A07F33C5E"
+          fi
+          gh release upload "$TAG" "$FILE" --clobber
