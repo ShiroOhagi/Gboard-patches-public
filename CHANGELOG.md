@@ -7,6 +7,8 @@
 * **Gboard:** Added prefix-based learned candidates with frequency and recency ranking.
 * **Gboard:** Added reset, JSON import, and JSON export controls.
 * **Gboard:** Preserves stock Gboard conversion and excludes password and no-personalized fields.
+* **Gboard:** Added the 「Shiroカスタム」 settings group with all six custom items and Japanese descriptions.
+* **Morphe:** Renamed the public patch label from “Shiro Predict” to 「変換予測」 and localized its Japanese description.
 
 # 3.10.0-shiro-r6.5 (2026-09-30)
 
