@@ -1,3 +1,9 @@
+# 3.10.0-shiro-r6.6-r7 (2026-10-04)
+
+### Fixes
+
+* **Gboard:** Updated the Shiro Predict candidate-row layout and packing in the R6.6 upper-row hotfix.
+
 # 3.10.0-shiro-r6.6-r6 (2026-10-02)
 
 ### Features

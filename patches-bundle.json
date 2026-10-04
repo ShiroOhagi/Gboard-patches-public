@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-10-02T14:09:52",
-  "description": "Gboard Shiro Custom R6.6-r6 — 変換予測",
-  "download_url": "https://github.com/ShiroOhagi/Gboard-patches-public/releases/download/gboard-shiro-r6.6-r6/patches-3.10.0-shiro-r6.6-r6.mpp",
+  "created_at": "2026-10-04T00:08:35Z",
+  "description": "Gboard Shiro Custom R6.6-r7 — 変換予測",
+  "download_url": "https://github.com/ShiroOhagi/Gboard-patches-public/releases/download/gboard-shiro-r6.6-r7/patches-3.10.0-shiro-r6.6-r7.mpp",
   "signature_download_url": "",
-  "version": "3.10.0-shiro-r6.6-r6"
+  "version": "3.10.0-shiro-r6.6-r7"
 }
