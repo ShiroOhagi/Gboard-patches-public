@@ -1,7 +1,7 @@
 {
-    "created_at":  "2026-10-21T21:05:34",
-    "description":  "GboardWu R4 QA preview: 48 Morphe patches. Custom TTF/OTF font applied to Japanese 12-key kana center and Shiro flick guides, with prior encrypted dictionary sync; device tests NOT_RUN. Accepted GboardWu Ver v1.1.0 Stable retained. Requested Ver 2.0.0 bump is pending; internal preview version remains R4 QA.",
-    "download_url":  "https://github.com/ShiroOhagi/Gboard-patches-public/releases/download/gboardwu-syncfont-r4-48p-qa/GboardWu-SyncFont-R4-KanaKey-48P-UNACCEPTED.mpp",
+    "created_at":  "2026-10-21T21:27:35",
+    "description":  "GboardWu R4 Kana Layout Fix1 QA preview: 48 existing Morphe patches; center kana custom font glyph fitted within key bounds, preserving flick guides and native labels. Signed app install \u0026 on-device fix visual QA NOT_RUN. Internal MPP version remains R4 QA; accepted v1.1.0 Stable unchanged; Ver2.0.0 display change remains pending.",
+    "download_url":  "https://github.com/ShiroOhagi/Gboard-patches-public/releases/download/gboardwu-syncfont-r4-kana-layout-fix1-qa/GboardWu-SyncFont-R4-KanaLayoutFix1-48P-QA.mpp",
     "signature_download_url":  "",
     "version":  "3.10.0-shiro-gboardwu-syncfont-r4-48p-qa"
 }
