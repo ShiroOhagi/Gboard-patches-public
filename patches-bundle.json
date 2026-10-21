@@ -1,5 +1,5 @@
 {
-    "created_at":  "2026-10-21T19:44:40+09:00",
+    "created_at":  "2026-10-21T19:44:40",
     "description":  "Gboard Shiro Custom SyncFont R3 QA preview (NOT device-tested). 48 independent Morphe patches: 46 existing + dictionary sync + TTF/OTF custom font. Android Gboard 18.0.3 only. Auto sync OFF unless configured. Previous v1.1.0 Stable release remains available.",
     "download_url":  "https://github.com/ShiroOhagi/Gboard-patches-public/releases/download/gboardwu-syncfont-r3-48p-qa/GboardWu-SyncFont-R3-48P-UNACCEPTED.mpp",
     "signature_download_url":  "",
