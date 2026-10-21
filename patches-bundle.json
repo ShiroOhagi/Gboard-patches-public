@@ -1,7 +1,7 @@
 {
-    "created_at":  "2026-10-21T21:55:58",
-    "description":  "GboardWu R4 Auto + Manual Kana Center Adjustment QA preview, 48 Morphe patches, custom fonts: automatic glyph fit remains always ON; optional per-font center X/Y +/-8dp and size 80-120%, reset current font; device verification NOT_RUN. Source-only QA candidate, formal accepted v1.1.0 stable unchanged. Internal Version retains R4 pending separate v2.0.0 change.",
-    "download_url":  "https://github.com/ShiroOhagi/Gboard-patches-public/releases/download/gboardwu-syncfont-r4-kana-auto-manual-qa/GboardWu-SyncFont-R4-KanaAutoManualAdjust-48P-QA.mpp",
+    "created_at":  "2026-10-21T22:22:53",
+    "description":  "GboardWu R4 Kana Center Align Fix2 QA: restores true center for あかさたなは and similar kana by matching ink-bound layout with Paint.Align.LEFT. Includes R4 per-font auto/manual alignment controls and existing 48 Morphe patches. Previous +8dp workaround must be reset to 0dp when updating. Real-device fix not independently QA tested. Stable GboardWu v1.1.0 unchanged; Ver 2.0.0 display not yet applied.",
+    "download_url":  "https://github.com/ShiroOhagi/Gboard-patches-public/releases/download/gboardwu-syncfont-r4-center-align-fix2-qa/GboardWu-SyncFont-R4-CenterAlignFix2-48P-QA.mpp",
     "signature_download_url":  "",
     "version":  "3.10.0-shiro-gboardwu-syncfont-r4-48p-qa"
 }
