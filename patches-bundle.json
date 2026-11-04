@@ -1,7 +1,7 @@
 {
-    "created_at":  "2026-10-21T22:55:31",
-    "description":  "GboardWu Ver 2.0.0 Stable — completed 48 Morphe patches, kana center font alignment and guides, per-font safe auto/manual adjustments, encrypted opt-in dictionary synchronization. Accepted visual appearance with center X/Y=0dp and size=100%. Extension targeted 56 PASS, patch 284 PASS, broad extension suite has unrelated failures under investigation; new v2.0.0-labelled APK install NOT_RUN. Older v1.1.0 Stable retained for rollback.",
-    "download_url":  "https://github.com/ShiroOhagi/Gboard-patches-public/releases/download/gboardwu-v2.0.0-stable/GboardWu-v2.0.0-Morphe-48P.mpp",
-    "signature_download_url":  "",
-    "version":  "3.10.0-shiro-gboardwu-v2.0.0-48p"
+  "created_at": "2026-11-04T17:37:00",
+  "description": "Gboard Shiro-v4 for the unmodified Gboard 18.5.4.993608717-release-arm64-v8a only. Official Gboard Patches 4.0.0: 43; Shiro custom additions: 8; 51 patches combined. Numeric 12-key right-top Backspace and third-row-right minus switch corrected by guarded key-position binding. Japanese/English flick and custom features preserved. Native runtime acceptance of the numeric fix pending. Previous GboardWu v2.0.0 release retained for rollback.",
+  "download_url": "https://github.com/ShiroOhagi/Gboard-patches-public/releases/download/gboard-shiro-v4-18.5.4-51p-20261104/Gboard-Shiro-v4-18.5.4-51P.mpp",
+  "signature_download_url": "",
+  "version": "4.0.0-shiro-v4-18.5.4-51p"
 }
